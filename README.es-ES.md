@@ -106,3 +106,8 @@ El idioma de la interfaz se puede cambiar en cualquier momento desde la cabecera
 ## 📄 Licencia
 
 [GPL-3.0](LICENSE)
+
+## 💬 Soporte y Equipo
+
+Con el soporte de [MyChatbot Team](https://MyChatbot.dev)
+

@@ -106,3 +106,8 @@ npm run build:linux  # Linux
 ## 📄 라이선스
 
 [GPL-3.0](LICENSE)
+
+## 💬 지원 및 팀
+
+[MyChatbot 팀](https://MyChatbot.dev) 에서 지원 및 관리합니다
+

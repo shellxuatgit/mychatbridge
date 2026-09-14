@@ -106,3 +106,8 @@ Die Anzeigesprache kann jederzeit über die Kopfzeile oder *Einstellungen → Da
 ## 📄 Lizenz
 
 [GPL-3.0](LICENSE)
+
+## 💬 Support & Team
+
+Unterstützt durch das [MyChatbot Team](https://MyChatbot.dev)
+

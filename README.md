@@ -106,3 +106,8 @@ Display language can be changed anytime from the header or *Settings → Appeara
 ## 📄 License
 
 [GPL-3.0](LICENSE)
+
+## 💬 Support & Team
+
+Supported by [MyChatbot Team](https://MyChatbot.dev)
+

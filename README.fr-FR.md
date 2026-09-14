@@ -106,3 +106,8 @@ La langue d'affichage peut être modifiée à tout moment depuis l'en-tête ou *
 ## 📄 Licence
 
 [GPL-3.0](LICENSE)
+
+## 💬 Support et Équipe
+
+Soutenu par l'[Équipe MyChatbot](https://MyChatbot.dev)
+
