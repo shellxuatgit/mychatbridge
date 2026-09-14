@@ -1,0 +1,13 @@
+This directory (`src/web-runtime/`) is ported from the `webllm/browser` module of the
+WebLLM Gateway project (https://github.com/WebLLM/webllm).
+
+Original files copyright their respective authors.
+Ported to MyChatBridge and modified under the terms of the GNU General Public
+License, version 3 (GPL-3.0) — see the repository root LICENSE file.
+
+Modifications made during the port (Task 1 of the MyChatBridge × WebLLM Engine
+integration):
+- `session-manager.ts`: `getDataDir()` now resolves to the MyChatBridge data dir
+  (`%APPDATA%/.mychatbridge/web-runtime`); `saveSession()` takes an explicit
+  `providerId` parameter instead of deriving it from `accountId.split('_')[1]`.
+- `index.ts`: `SESSION_SAVE` handler passes `params.provider_id` to `saveSession`.

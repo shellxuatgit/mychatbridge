@@ -1,0 +1,19 @@
+{
+  "id": "doubao",
+  "name": "Doubao",
+  "version": "0.1.0",
+  "min_app_version": "0.1.0",
+  "web_url": "https://www.doubao.com/chat",
+  "description": "字节跳动旗下 AI 助手",
+  "auth_type": "browser",
+  "capabilities": {
+    "chat": true,
+    "streaming": true,
+    "conversation": true,
+    "file_upload": true
+  },
+  "scripts": {
+    "runtime": "runtime.js",
+    "auth": "auth.js"
+  }
+}

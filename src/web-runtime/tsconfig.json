@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "../../out/web-runtime",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "sourceMap": false,
+    "strict": true,
+    "types": ["node"]
+  },
+  "include": ["**/*.ts"]
+}

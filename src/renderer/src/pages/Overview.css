@@ -1,0 +1,121 @@
+.phase1-overview {
+  width: 100%;
+  position: relative;
+}
+
+.phase1-overview-header {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.phase1-overview-header h1 {
+  margin: 0;
+}
+
+/* Phase 1 hierarchy: Local API + API Keys first, Providers below. */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 {
+  width: 100%;
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section {
+  min-width: 0;
+  margin: 0;
+}
+
+/* Keep Local API and API Keys aligned at a shared minimum height, while the
+   API Keys card is allowed to grow with its contents (1-5 keys stay visible). */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(2),
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(3) {
+  min-height: 176px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Local API fills the stretched row and centers its single line vertically. */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(2) > div {
+  flex: 1;
+  min-height: 0;
+}
+
+/* API Keys list: grow with content up to a threshold, then scroll instead of
+   clipping so every key stays reachable. */
+.phase1-overview .overview-keys-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Local API title row spans the card; the toggle is portaled to its right. */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(2) > h2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 6px;
+}
+
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(2) > h2 > button {
+  margin-left: auto;
+}
+
+/* Providers is the main workspace and spans the full content width. */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(1) {
+  order: 3;
+  grid-column: 1 / -1;
+}
+
+/* Local API is a primary control and sits in the top-left. */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(2) {
+  order: 1;
+}
+
+/* API Keys is a primary control and sits beside Local API. */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(3) {
+  order: 2;
+}
+
+/* API Keys: keep only the plus icon in the header action. */
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(3) > div:first-child > button {
+  width: 2rem;
+  min-width: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 0;
+  justify-content: center;
+  gap: 0;
+}
+
+.phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(3) > div:first-child > button svg {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .phase1-overview-header {
+    margin-bottom: 20px;
+  }
+
+  .phase1-overview > .mx-auto.max-w-2xl.space-y-8 {
+    grid-template-columns: 1fr;
+  }
+
+  .phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(1) {
+    grid-column: auto;
+  }
+
+  .phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(2),
+  .phase1-overview > .mx-auto.max-w-2xl.space-y-8 > section:nth-of-type(3) {
+    min-height: 176px;
+  }
+}
