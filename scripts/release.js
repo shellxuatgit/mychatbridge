@@ -121,7 +121,7 @@ async function main() {
   console.log('Release process initiated!');
   console.log('='.repeat(50));
   console.log('\nGitHub Actions will now build and publish the release.');
-  console.log('Check progress at: https://github.com/mychatbridge/MyChatBridge-Manager/actions');
+  console.log('Check progress at: https://github.com/shellxuatgit/mychatbridge/actions');
 }
 
 main().catch(console.error);

@@ -205,17 +205,17 @@ export function About() {
     {
       label: t('about.github'),
       icon: Github,
-      url: 'https://github.com/mychatbridge/MyChatBridge',
+      url: 'https://github.com/shellxuatgit/mychatbridge',
     },
     {
       label: t('about.documentation'),
       icon: FileText,
-      url: 'https://mychatbridge.org/',
+      url: 'https://github.com/shellxuatgit/mychatbridge',
     },
     {
       label: t('about.reportIssue'),
       icon: Bug,
-      url: 'https://github.com/mychatbridge/MyChatBridge/issues',
+      url: 'https://github.com/shellxuatgit/mychatbridge/issues',
     },
   ]
 

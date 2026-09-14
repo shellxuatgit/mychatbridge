@@ -46,12 +46,12 @@
 
 从 GitHub Releases 下载最新版本：
 
-> 仓库地址：https://github.com/mychatbridge/MyChatBridge/releases
+> 仓库地址：https://github.com/shellxuatgit/mychatbridge/releases
 
 ### 从源码构建
 
 ```bash
-git clone https://github.com/mychatbridge/MyChatBridge.git
+git clone https://github.com/shellxuatgit/mychatbridge.git
 cd MyChatBridge
 npm install
 npm run build:win    # Windows
