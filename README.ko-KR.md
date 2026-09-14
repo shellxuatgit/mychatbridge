@@ -55,15 +55,17 @@ MyChatBridge는 여러 AI 서비스 제공자를 위한 통합 관리형 OpenAI 
 
 다른 언어의 스크린샷은 [`docs/screenshots/`](docs/screenshots)에서 확인할 수 있습니다.
 
-## 📥 설치
+## 📥 다운로드 및 설치
 
-### 다운로드
+### 사전 빌드된 바이너리 (v0.1.0)
 
-[GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases)에서 최신 버전을 다운로드하세요:
+| 플랫폼 | 다운로드 링크 | 비고 |
+| :--- | :--- | :--- |
+| **Windows** | [설치 프로그램 (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-setup.exe) <br> [포터블 버전 (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-portable.exe) | Windows 10/11 64비트 |
+| **macOS** | [다운로드 (.dmg)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.dmg) <br> [다운로드 (.zip)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.zip) | Apple Silicon 및 Intel 범용 |
+| **Linux** | [다운로드 (.AppImage)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64.AppImage) <br> [다운로드 (.deb)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-amd64.deb) | Ubuntu / Debian / Fedora 등 |
 
-- Windows: `nsis` 설치 프로그램
-- macOS: `dmg` / `zip`
-- Linux: `AppImage` / `deb`
+전체 릴리스 및 이전 버전은 [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases)에서 확인하세요.
 
 ### 소스에서 빌드
 

@@ -55,15 +55,17 @@ MyChatBridge es una aplicación de escritorio multiplataforma (Electron) que pro
 
 Más capturas de pantalla en otros idiomas están disponibles en [`docs/screenshots/`](docs/screenshots).
 
-## 📥 Instalación
+## 📥 Descargas e instalación
 
-### Descarga
+### Binarios precompilados (v0.1.0)
 
-Obtén la última versión desde [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases):
+| Plataforma | Enlace de descarga | Notas |
+| :--- | :--- | :--- |
+| **Windows** | [Descargar Instalador (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-setup.exe) <br> [Descargar Portable (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-portable.exe) | Windows 10/11 64 bits |
+| **macOS** | [Descargar (.dmg)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.dmg) <br> [Descargar (.zip)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.zip) | Apple Silicon e Intel |
+| **Linux** | [Descargar (.AppImage)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64.AppImage) <br> [Descargar (.deb)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-amd64.deb) | Ubuntu / Debian / Fedora |
 
-- Windows: instalador `nsis`
-- macOS: `dmg` / `zip`
-- Linux: `AppImage` / `deb`
+Consulta todos los artefactos y versiones en [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases).
 
 ### Compilar desde el código fuente
 

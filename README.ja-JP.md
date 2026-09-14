@@ -55,15 +55,17 @@ MyChatBridge は、複数の AI プロバイダーに対して統一管理され
 
 他の言語のスクリーンショットは [`docs/screenshots/`](docs/screenshots) をご覧ください。
 
-## 📥 インストール
+## 📥 ダウンロードとインストール
 
-### ダウンロード
+### プリビルドバイナリ (v0.1.0)
 
-[GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases) から最新版をダウンロード：
+| プラットフォーム | ダウンロードリンク | 備考 |
+| :--- | :--- | :--- |
+| **Windows** | [インストーラー (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-setup.exe) <br> [ポータブル版 (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-portable.exe) | Windows 10/11 64ビット |
+| **macOS** | [ダウンロード (.dmg)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.dmg) <br> [ダウンロード (.zip)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.zip) | Apple Silicon & Intel 両対応 |
+| **Linux** | [ダウンロード (.AppImage)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64.AppImage) <br> [ダウンロード (.deb)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-amd64.deb) | Ubuntu / Debian / Fedora など |
 
-- Windows：`nsis` インストーラー
-- macOS：`dmg` / `zip`
-- Linux：`AppImage` / `deb`
+すべてのアーティファクトと過去バージョンは [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases) をご覧ください。
 
 ### ソースからビルド
 

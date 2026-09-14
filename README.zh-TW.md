@@ -55,15 +55,17 @@ MyChatBridge 是一款跨平台桌面應用程式（Electron），為多個 AI �
 
 更多語言的截圖見 [`docs/screenshots/`](docs/screenshots)。
 
-## 📥 安裝
+## 📥 下載與安裝
 
-### 下載
+### 預編譯安裝包 (v0.1.0)
 
-從 [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases) 下載最新版本：
+| 平台 | 下載連結 | 說明 |
+| :--- | :--- | :--- |
+| **Windows** | [下載 安裝版 (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-setup.exe) <br> [下載 便攜版 (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-portable.exe) | Windows 10/11 64位元 |
+| **macOS** | [下載 (.dmg)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.dmg) <br> [下載 (.zip)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.zip) | Apple Silicon 與 Intel 通用 |
+| **Linux** | [下載 (.AppImage)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64.AppImage) <br> [下載 (.deb)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-amd64.deb) | Ubuntu / Debian / Fedora 等 |
 
-- Windows：`nsis` 安裝包
-- macOS：`dmg` / `zip`
-- Linux：`AppImage` / `deb`
+更多歷史版本與產物請前往 [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases)。
 
 ### 從原始碼建置
 

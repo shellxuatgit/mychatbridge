@@ -55,15 +55,17 @@ MyChatBridge is a cross-platform desktop application (Electron) that provides a 
 
 More screenshots in other languages are available under [`docs/screenshots/`](docs/screenshots).
 
-## 📥 Installation
+## 📥 Installation & Downloads
 
-### Download
+### Prebuilt Binaries (v0.1.0)
 
-Grab the latest version from [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases):
+| Platform | Download Link | Notes |
+| :--- | :--- | :--- |
+| **Windows** | [Download Setup (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-setup.exe) <br> [Download Portable (.exe)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64-portable.exe) | Windows 10/11 64-bit |
+| **macOS** | [Download (.dmg)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.dmg) <br> [Download (.zip)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-mac-universal.zip) | Apple Silicon & Intel |
+| **Linux** | [Download (.AppImage)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-x64.AppImage) <br> [Download (.deb)](https://github.com/shellxuatgit/mychatbridge/releases/download/v0.1.0/MyChatBridge-0.1.0-amd64.deb) | Ubuntu / Debian / Fedora |
 
-- Windows: `nsis` installer
-- macOS: `dmg` / `zip`
-- Linux: `AppImage` / `deb`
+View all artifacts and historical versions on [GitHub Releases](https://github.com/shellxuatgit/mychatbridge/releases).
 
 ### Build from source
 
